@@ -12,6 +12,7 @@ You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Python](https://www.python.org)
+* [PIP](https://pypi.org/project/pip/)
 
 ## What is required to run this package?
 
