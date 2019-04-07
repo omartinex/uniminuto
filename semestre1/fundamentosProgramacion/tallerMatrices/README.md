@@ -33,3 +33,4 @@ If you find this repo useful here's how you can help:
 
 * [Python Docs](https://docs.python.org/2/index.html)
 * [Git Docs](https://git-scm.com/doc)
+* [Pip Docs](https://pip.pypa.io/en/stable/)
