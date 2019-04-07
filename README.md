@@ -18,7 +18,7 @@ You will need the following things properly installed on your computer.
 If you find this repo useful here's how you can help:
 
 1. Send a Merge Request with your awesome new features and bug fixes
-2. Wait for a Hug :hug: you deserve it.
+2. Wait for an ice cream :icecream: you deserve it.
 
 ## Further Reading / Useful Links
 
