@@ -1,8 +1,8 @@
-# taller matrices
+# pynput Keylogger
 
 [![python](https://img.shields.io/badge/python-v2.7.X-5C4EE5.svg)](https://www.python.org)
 
->This script prints 2 vectors and 2 matrices  ;) `:wq`
+>This script run a keylogger registering all keys typed in keyboard  ;) `:wq`
 >
 >Developed with all :heart: in the world by Oscar Martinez
 
@@ -13,6 +13,7 @@ You will need the following things properly installed on your computer.
 * [Git](http://git-scm.com/)
 * [Python](https://www.python.org)
 * [PIP](https://pypi.org/project/pip/)
+* [Virtualenv](https://virtualenv.pypa.io/en/stable/) *[optional]*
 
 ## What is required to run this package?
 
@@ -50,3 +51,4 @@ If you find this repo useful here's how you can help:
 * [Python Docs](https://docs.python.org/2/index.html)
 * [Git Docs](https://git-scm.com/doc)
 * [Pip Docs](https://pip.pypa.io/en/stable/)
+* [Virtualenv Docs](https://pypi.org/project/virtualenv/)
