@@ -2,7 +2,7 @@
 
 [![python](https://img.shields.io/badge/python-v2.7.X-5C4EE5.svg)](https://www.python.org)
 
->This script run a keylogger registering all keys typed in keyboard  ;) `:wq`
+>This script run a keylogger registering all keys typed in keyboard to a text file ;) `:wq`
 >
 >Developed with all :heart: in the world by Oscar Martinez
 
