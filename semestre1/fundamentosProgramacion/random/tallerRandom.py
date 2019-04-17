@@ -45,11 +45,12 @@ def plotter():
         media = media + resultado
 
     # media = mean(vect)
-    print("La media de los numeros es: {}".format(media))
+    print('La media de los numeros es: {}'.format(media))
     plt.axhline(y=media, color='r', linestyle='-')
     #plt.plot()
     plt.plot(vect)
     plt.ylabel('random numbers')
+    plt.xlabel('La media de los numeros es: {}'.format(media))
     plt.show()
     
 
