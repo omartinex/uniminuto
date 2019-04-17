@@ -34,6 +34,7 @@ def vector():
 # Plot function
 
 def plotter():
+    # Obtener la media del vector
     media = mean(vect)
     print("La media de los numeros es: {}".format(media))
     plt.axhline(y=media, color='r', linestyle='-')
