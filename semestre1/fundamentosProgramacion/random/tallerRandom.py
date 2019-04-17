@@ -1,9 +1,12 @@
+from __future__ import division
 #!/usr/bin/python
 
 # Importar librerias
 import random
 import matplotlib.pyplot as plt 
 from numpy import mean
+
+
 
 # Clase para colorear la terminal
 
@@ -30,21 +33,24 @@ def vector():
     print(vect)
     print(bcolors.ENDC)
     return vect
+    
 
 # Plot function
 
 def plotter():
     # Obtener la media del vector
-    media = mean(vect)
+    media = 0
+    for i in vect:
+        resultado = i / 10
+        media = media + resultado
+
+    # media = mean(vect)
     print("La media de los numeros es: {}".format(media))
     plt.axhline(y=media, color='r', linestyle='-')
     #plt.plot()
     plt.plot(vect)
     plt.ylabel('random numbers')
     plt.show()
-    
-
-
     
 
 if __name__ == "__main__":
