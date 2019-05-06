@@ -45,7 +45,7 @@ def first():
 
 def second():
 
-    print(bcolors.HEADER+"\nResolver el sistema de ecuaciones de 2*2"+bcolors.ENDC)
+    print(bcolors.HEADER+"\nPunto 2: Resolver el sistema de ecuaciones de 2*2"+bcolors.ENDC)
     m = """
     ax + by = c
     dx + ey = f
@@ -65,7 +65,7 @@ def second():
     {}x + {}y = {}
     """.format(a,b,c,d,e,f)
     print(bcolors.WARNING+m+bcolors.ENDC)
-    continuar = input(bcolors.HEADER+"Es correcto? (Y/N)"+bcolors.ENDC)
+    continuar = input(bcolors.HEADER+"Es correcto? (Y/N): "+bcolors.ENDC)
     if (continuar == "y" or continuar == "Y"):
         A = np.array([ [a,b], [d,e] ])
         B = np.array([c,f])
@@ -81,7 +81,7 @@ def second():
         print(bcolors.OKGREEN+'\nDebe digitar Y o N. '+bcolors.ENDC)
         exit()
 
-
+#def third():
 
 if __name__ == "__main__":
     print(bcolors.HEADER+"Parcial corte 2\n"+bcolors.ENDC)
