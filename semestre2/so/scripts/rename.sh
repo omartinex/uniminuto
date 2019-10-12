@@ -24,5 +24,5 @@ for f in `find . -regex '.*[xX].*.txt'`; do
 done
 
 echo -e '\n[+] Archivos .md en el directorio:'
-ls -1 *.md
+ls -1 $WORKDIR/*.md
 echo -e ""
